@@ -6,6 +6,7 @@ It contains original [CSSLint](https://github.com/CSSLint/csslint/), together wi
 ### Differences from original:
 
 - Implied support for [CSS variables](http://www.w3.org/TR/css-variables/) syntax
+- Support for `@-moz-document url-prefix()` rule
 - Added [additional rules](#additional-rules), that help maintain desired whitespace conventions
 
 ### Installation
