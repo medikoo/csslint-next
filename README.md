@@ -32,6 +32,9 @@ Do not allow more than two empty lines in a row
 
 Expect indentation with tabs. It will report on any space characters at begin of line, and mixed tabs and spaces.
 
+#### ws-at-eol
+
+Disallow whitespace characters at end of line
 
 ## Tests [![Build Status](https://travis-ci.org/medikoo/csslint-next.png)](https://travis-ci.org/medikoo/csslint-next)
 
