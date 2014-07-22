@@ -1,0 +1,29 @@
+{
+  "name": "csslint-next",
+  "version": "0.1.0",
+  "description": "Customized version of CSSLint",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "keywords": [
+    "css",
+    "lint",
+    "csslint",
+    "style"
+  ],
+  "bin": {
+    "csslintnext": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/csslint-next.git"
+  },
+  "dependencies": {
+    "es5-ext": "~0.10.4"
+  },
+  "devDependencies": {
+    "tad": "0.2.x"
+  },
+  "scripts": {
+    "test": "node node_modules/tad/bin/tad"
+  },
+  "license": "MIT"
+}
