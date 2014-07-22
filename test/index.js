@@ -1,5 +1,11 @@
 'use strict';
 
+var compare = function (a, b) {
+	if (a.line !== b.line) return a.line - b.line;
+	if (a.col !== b.col) return a.col - b.col;
+	return a.message.toLowerCase().localeCompare(b.message.toLowerCase());
+};
+
 module.exports = function (t, a) {
 	var rules = Object.create(null)
 	  , tpl = '\nbody div { margin-right: 21}\n\n\n div \r{ foo: bar; } ';
@@ -7,7 +13,7 @@ module.exports = function (t, a) {
 	t.getRules().forEach(function (rule) {
 		rules[rule.id] = rule;
 	});
-	a.deep(t.verify(tpl).messages, [{
+	a.deep(t.verify(tpl).messages.sort(compare), [{
 		type: 'warning',
 		line: 4,
 		col: 1,
@@ -49,5 +55,5 @@ module.exports = function (t, a) {
 		message: 'Unknown property \'foo\'.',
 		evidence: ' div \r{ foo: bar; } ',
 		rule: rules['known-properties']
-	}]);
+	}].sort(compare));
 };
