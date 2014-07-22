@@ -1,3 +1,7 @@
+v0.1.3  --  2014.07.22
+* Support variables syntax in mutiple property values
+* Support @-moz-document rule
+
 v0.1.2  --  2014.07.22
 Add ws-at-eol rule
 
