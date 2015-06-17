@@ -1,3 +1,10 @@
+v1.0.0  -- 2015.06.17
+* Allow \9 IE<=8 hacks
+* Fix spelling of license
+* Use ^ in deependencies
+* Configure lint scripts
+* Make cli executable
+
 v0.1.5  --  2014.09.15
 * Update parser-lib with better variables syntax support
 
