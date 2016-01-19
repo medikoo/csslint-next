@@ -7,6 +7,7 @@ It contains original [CSSLint](https://github.com/CSSLint/csslint/), together wi
 
 - Implied support for [CSS variables](http://www.w3.org/TR/css-variables/) syntax
 - Added [additional rules](#additional-rules), that help maintain desired whitespace conventions
+- Allow '\9' IE<=8 hacks
 
 ### Installation
 
