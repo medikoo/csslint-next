@@ -1,4 +1,9 @@
-v1.0.0  -- 2015.06.17
+v1.1.0  --  2016.01.19
+* Fix handling for empty foles
+* Expose full stack trace on parser error
+* Upgrade parserlib
+
+v1.0.0  --  2015.06.17
 * Allow \9 IE<=8 hacks
 * Fix spelling of license
 * Use ^ in deependencies
