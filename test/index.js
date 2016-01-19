@@ -51,7 +51,7 @@ module.exports = function (t, a) {
 	}, {
 		type: 'warning',
 		line: 5,
-		col: 9,
+		col: 3,
 		message: 'Unknown property \'foo\'.',
 		evidence: ' div \r{ foo: bar; } ',
 		rule: rules['known-properties']
