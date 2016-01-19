@@ -1,3 +1,6 @@
+v1.1.1  --  2016.01.19
+* Bring back accidently removed \9 hack support
+
 v1.1.0  --  2016.01.19
 * Fix handling for empty foles
 * Expose full stack trace on parser error
